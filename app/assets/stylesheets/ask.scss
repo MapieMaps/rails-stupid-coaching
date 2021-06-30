@@ -1,0 +1,27 @@
+// form {
+//   margin: auto;
+//   margin-left: 48px;
+// }
+body {
+  margin: auto;
+  max-width: 500px;
+}
+
+
+input[type=text] {
+  height: 32px;
+  border-radius: 6px;
+  border-style: solid;
+  border-color: rgb(240, 240, 240);
+}
+
+input[type=submit] {
+  height: 36px;
+  width: 100px;
+  border-style: none;
+  border-radius: 6px;
+  background-color: #00acc1;
+  color: white;
+  margin-left: 12px;
+}
+

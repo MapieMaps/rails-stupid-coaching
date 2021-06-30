@@ -1,0 +1,64 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  margin: auto;
+  max-width: 500px;
+}
+h1 {
+  margin-bottom: 64px;
+}
+
+.user-small-text {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  color : rgb(150, 150 , 150);
+}
+
+.link-style a {
+  text-decoration: none;
+  color: #1e88e5;
+  font-size: 12px;
+}
+.coach-bloc .user-small-text {
+  text-align: right;
+  margin-right: 16px;
+}
+
+.coach-bloc {
+  margin-top: 64px;
+}
+
+.mapie-bloc .user-small-text {
+  margin-left: 16px;
+}
+
+.coach-answer {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: rgb(245, 245, 245);
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.mapie-answer {
+  display: flex;
+  background-color: rgb(245, 245, 245);
+  padding: 16px;
+  border-radius: 12px;
+}
+
+
+.avatar {
+    border-radius: 50%;
+}
+
+.mapie-avatar {
+  margin-right: 16px;
+}
+
+.coach-avatar {
+  margin-left: 16px;
+}
